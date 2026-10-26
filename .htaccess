@@ -1,0 +1,5 @@
+# CourtIQ
+# Ficheiros de documentação, credenciais e SQL não são servidos pelo site.
+<FilesMatch "\.(sql|txt|md|log|bak)$">
+    Require all denied
+</FilesMatch>

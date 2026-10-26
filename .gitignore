@@ -1,0 +1,15 @@
+# Cópias de segurança da base de dados (podem conter dados reais)
+backups/*
+!backups/.gitkeep
+
+# Ficheiros carregados pelos utilizadores (emblemas, fotografias, documentos)
+uploads/*
+!uploads/.htaccess
+!uploads/.gitkeep
+
+# Registos, IDE e sistema operativo
+*.log
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

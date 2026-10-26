@@ -1,0 +1,3 @@
+# Bloqueia qualquer acesso direto via browser a esta pasta.
+# O schema é para importar no phpMyAdmin, não para ser servido pelo site.
+Require all denied

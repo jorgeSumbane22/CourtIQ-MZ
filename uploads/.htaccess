@@ -1,0 +1,12 @@
+# Pasta de imagens enviadas pelos utilizadores.
+# Nada aqui dentro pode ser executado como código: só se servem imagens.
+<FilesMatch "\.(?i:php\d*|phtml|phar|pl|py|cgi|sh|htaccess)$">
+    Require all denied
+</FilesMatch>
+<IfModule mod_php.c>
+    php_flag engine off
+</IfModule>
+<IfModule mod_php7.c>
+    php_flag engine off
+</IfModule>
+Options -Indexes -ExecCGI
